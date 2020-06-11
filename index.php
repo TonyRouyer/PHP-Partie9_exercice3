@@ -8,9 +8,8 @@
 <body>
     <?php
         setlocale(LC_TIME, "fr_FR");
-        $date = date('D-m-y');
     ?>
-    <p><?= 'nous somme toujours le ' . strftime("%A %d %B %G", strtotime($date)) ?></p>
+    <p><?= 'nous somme toujours le ' . strftime("%A %d %B %Y") ?></p>
 </body>
 </html>
 
