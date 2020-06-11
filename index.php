@@ -10,7 +10,7 @@
         setlocale(LC_TIME, "fr_FR");
         $date = date('D-m-y');
     ?>
-    <p><?= 'nous somme encore le ' . strftime("%A %d %B %G", strtotime($date)) ?></p>
+    <p><?= 'nous somme toujours le ' . strftime("%A %d %B %G", strtotime($date)) ?></p>
 </body>
 </html>
 
