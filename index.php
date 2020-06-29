@@ -7,9 +7,10 @@
 </head>
 <body>
     <?php
-        setlocale(LC_TIME, "fr_FR");
+        //on set la varial LC-TIME en france (fr_FR)
+        setlocale(LC_TIME, "fr_FR.UTF-8");
     ?>
-    <p><?= 'nous somme toujours le ' . strftime("%A %d %B %Y") ?></p>
+    <p><?= 'nous somme toujours le ' . strftime("%A %d %B %Y") //on affiche la date actuel, %A=nom du jour en lettre ,%D=jour en chiffre, %B=mois en chiffre, %Y= annee en chiffre?></p>
 </body>
 </html>
 
